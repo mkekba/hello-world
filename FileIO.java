@@ -32,3 +32,7 @@ public class FileIO
           System.out.println("data has been saved.");
   }
 }
+//ADD this line
+public static int add(int x,int y){
+	return x + y;
+}
