@@ -11,7 +11,7 @@ public class FileIO
     String fileName= userInput.nextLine();
     
     //To creat a object out of fileWriter to be able to appand and creat a print wrier to be able to use println methods
-      
+      //this is a example of file io
     FileWriter fWriter= new FileWriter(fileName, true);
     PrintWriter outputFile = new PrintWriter(fWriter); //opening the File 
     
