@@ -5,7 +5,7 @@ public class FileIO
   public static void main(String[] args)  throws IOException
   {
     //This is to creat a file appand and write to it 
-     //to get the file name
+  
     Scanner userInput= new Scanner (System.in);
     System.out.println("Enter the name of the file you want to creat");
     String fileName= userInput.nextLine();
